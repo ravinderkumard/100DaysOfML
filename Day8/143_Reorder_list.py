@@ -39,6 +39,9 @@ The number of nodes in the list is in the range [1, 5 * 104].
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+from typing import Optional
+
+
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
         """
