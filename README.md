@@ -95,7 +95,7 @@ Out of Core Learning is a technique used to train machine learning models on dat
 ### Conclusion:
 Both Batch Learning and Online Learning have their own advantages and disadvantages. The choice between the two approaches depends on the specific use case, data characteristics, and resource constraints. Understanding the strengths and limitations of each method is crucial for selecting the most appropriate learning strategy for a given machine learning task.
 
-|--------------------------------|---------------------------|----------------|
+### Comparison between Batch Learning and Online Learning:
 |         Offline learning       |      Features             | Online Learning|
 |--------------------------------|---------------------------|----------------|
 | Less complex as model is constant| Complexity    | Dynamic complexity as the model keeps evolving overtime|
