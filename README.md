@@ -103,3 +103,43 @@ Both Batch Learning and Online Learning have their own advantages and disadvanta
 | Easier to implement|Use in Production|Difficult to implement and manage|
 |Image Classification or anything related to Machine learning -where data patterns remains constant without sudden concept drifts|Applications|Used in finance, economics, health where new data patterns are constantly emerging|
 |Industry proven E.g. Sci-kit, Tenserflow, Pytorch,Keras, Spark Mlib|Tools|Active research/New project tools E.g. MOA, SAMOA, scikit-multiflow, stream DM|
+
+## Day 10:
+Instance Vs Model Based Learning
+Instance-Based Learning:
+1. Stores all training data
+2. Makes predictions based on similarity to stored instances
+3. Examples: k-Nearest Neighbors, Case-Based Reasoning
+Model-Based Learning:
+1. Builds a model from the training data
+2. Makes predictions using the model
+3. Examples: Linear Regression, Decision Trees
+
+Differences:
+| Aspect                 | Instance-Based Learning               | Model-Based Learning                  |
+|------------------------|--------------------------------------|--------------------------------------|
+| Data Storage           | Stores all training instances        | Stores a model derived from data     |
+| Prediction Method      | Based on similarity to instances     | Based on the learned model           |
+| Computational Cost    | High during prediction                | High during training                  |
+| Adaptability           | Adapts quickly to new data           | Requires retraining for new data      |
+| Examples               | k-NN, Case-Based Reasoning           | Linear Regression, Decision Trees        |    
+
+| Instance-Based Learning               | Usual/Conventional-Based Learning                  |
+|--------------------------------------|--------------------------------------|
+| Prepare the data for model training|Prepare the data for model training. No difference here.|
+| Train model from training data to estimate model parameters, i.e., discover patters| Do not train model. Patterns dicovery postponed until scoring query received|
+|Store the model in suitable form|There is no model to store|
+| Generalize the rules in form of model, even before scoring instance is seen| No generalization before scoring. Only generalize for each scoring instance individually as and when seen|
+|Predict for unseen scoring instance using model|Predict for unseen scoring instance using training data directly|
+|Can throw away input/training data after model training|Input/training data must be kept since each query uses part or full set of training observations|
+|Requires a known model form|May not have explicit model form|
+|Storing models generally requires less storage| Storing training data generally requires more storage|
+
+
+Outliers in Machine Learning:
+1. Definition: Data points that deviate significantly from the majority of the data.
+2. Types: Point Outliers, Contextual Outliers, Collective Outliers
+3. Detection Methods: Statistical Methods, Distance-Based Methods, Density-Based Methods, Clustering-Based Methods
+4. Handling Outliers: Removal, Transformation, Imputation, Robust Algorithms    
+
+
