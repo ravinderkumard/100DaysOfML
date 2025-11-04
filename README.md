@@ -143,3 +143,81 @@ Outliers in Machine Learning:
 4. Handling Outliers: Removal, Transformation, Imputation, Robust Algorithms    
 
 
+## Day 11:
+Day 7 of Campus X 100 Days of Machine Learning
+
+### Type of Machine Learning:
+1. Supervised Learning: Learning from labeled data (e.g., classification, regression).
+2. Unsupervised Learning: Learning from unlabeled data (e.g., clustering, association
+rules).
+3. Semi-Supervised Learning: Combination of labeled and unlabeled data.
+4. Reinforcement Learning: Learning through rewards and penalties in a dynamic environment. 
+5. Self-Supervised Learning: Learning representations from the data itself without explicit labels.
+6. Deep Learning: Using neural networks with multiple layers to learn complex patterns.
+7. Transfer Learning: Leveraging knowledge from one task to improve learning in another related task.
+8. Online Learning: Updating the model incrementally as new data arrives.
+9. Batch Learning: Training the model on the entire dataset at once.
+10. Active Learning: The model actively selects the most informative data points for labeling.
+11. Ensemble Learning: Combining multiple models to improve performance (e.g., bagging, boosting).
+12. Federated Learning: Training models across decentralized devices while keeping data localized.
+
+### Type of Data:
+1. Structured Data: Organized data in tabular format (e.g., databases, spreadsheets).
+2. Unstructured Data: Data without a predefined format (e.g., text, images, audio).
+3. Semi-Structured Data: Data with some organizational properties (e.g., JSON, XML).
+4. Time Series Data: Data points collected or recorded at specific time intervals.
+5. Categorical Data: Data that can be divided into distinct categories or groups.
+6. Numerical Data: Quantitative data represented by numbers (e.g., integers, floats).
+7. Text Data: Data in the form of written language (e.g., documents, social media posts).
+8. Image Data: Visual data represented as pixels (e.g., photographs, medical images).
+9. Audio Data: Sound data represented as waveforms (e.g., music, speech).
+10. Video Data: Sequential visual data combining images and audio (e.g., movies, surveillance footage). 
+
+### Challenges in Machine Learning:
+1. Data Collection: Obtaining high-quality and relevant data.
+    API or Web Scraping
+2. Insufficient Data: Limited availability of labeled data for training.
+    Data Augmentation
+3. Non Representative Data: Training data not reflecting real-world scenarios.
+    Cross-Validation
+    Sampling Noise
+    Sampling Bias
+4. Poor Data Quality: Presence of noise, outliers, and missing values.
+    Data Cleaning
+5. Irrelevant Features: Inclusion of non-informative or redundant features.
+    Feature Selection
+    Feature Engineering
+6. Overfitting: Model performs well on training data but poorly on unseen data.
+    Regularization
+    Cross-Validation
+7. Underfitting: Model fails to capture underlying patterns in the data.
+    Model Complexity
+8. Software Integration: Challenges in deploying models into production environments.
+    Containerization
+    APIs
+9. Offline Learning/Deployment: Inability to adapt to new data in real-time.
+10. Cost Involved: High computational and resource costs for training and deploying models.
+    Cloud Computing
+
+
+Day 8 of Campus X 100 Days of Machine Learning
+1. Retail and E-commerce
+    During Sale they check which product to stock in using ML.
+    Take phone number from user and predict which product user may buy.
+    Deciding which product to show to user based on previous purchase.
+2. Banking and Finance
+    Fraud Detection
+    Credit Scoring
+    Algorithmic Trading
+3. Transportation and Logistics
+    Route Optimization
+    Demand Prediction
+    Autonomous Vehicles
+4. Manufacturing
+    Predictive Maintenance
+    Quality Control
+    Supply Chain Optimization
+5. Consumer Internet Services
+    Personalized Recommendations
+    Content Moderation
+    Search Engine Optimization
