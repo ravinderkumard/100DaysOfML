@@ -221,3 +221,47 @@ Day 8 of Campus X 100 Days of Machine Learning
     Personalized Recommendations
     Content Moderation
     Search Engine Optimization
+
+
+## Day 12:
+Day 9 of Campus X 100 Days of Machine Learning
+Machine Learning Development Life Cycle:
+1. Problem Definition: Clearly define the problem to be solved and the objectives of the machine learning project.
+2. Data Collection: Gather relevant data from various sources, ensuring it is representative of the problem domain.
+    CSV, Database, APIs, Web Scraping
+3. Data Preprocessing: Clean and preprocess the data by handling missing values, outliers, and normalizing features.
+    - Remove Duplicates
+    - Handle Missing Values
+    - Normalize/Standardize Data
+    - Encode Categorical Variables
+    - Split Data into Training and Testing Sets
+    - Data Transformation
+    - Data Reduction
+    - Data Discretization
+    - Data Balancing
+    - Data Integration
+4. Exploratory Data Analysis (EDA): Analyze the data to understand its characteristics, distributions, and relationships between features.
+    - Define the relationship between features and target variable using statistical methods and visualization techniques.
+    - visualization Tools: Matplotlib, Seaborn, Plotly
+    - univariate Analysis
+    - bivariate Analysis
+    - multivariate Analysis
+    - Outlier Detection
+    - Imbalanced Data Handling
+5. Feature Engineering: Create new features or transform existing ones to improve model performance.
+6. Model Selection: Choose appropriate machine learning algorithms based on the problem type and data characteristics.
+7. Model Training: Train the selected models using the preprocessed data, tuning hyperparameters as necessary.
+8. Model Evaluation: Assess the performance of the trained models using relevant metrics and validation techniques.
+9. Model Deployment: Deploy the best-performing model into a production environment for real-world use.
+10. Monitoring and Maintenance: Continuously monitor the model's performance and update it as needed to ensure it remains effective over time.
+
+## Day 13:
+Data Engineer Vs Data Analyst Vs Data Scientist vs Machine Learning Engineer
+| Role                   | Responsibilities                                      | Skills Required                               | Tools/Technologies                          |
+|------------------------|-------------------------------------------------------|-----------------------------------------------|---------------------------------------------|
+| Data Engineer          | Design, build, and maintain data pipelines and infrastructure | SQL, Python, ETL processes, Big Data technologies | Hadoop, Spark, Kafka, Airflow                |
+| Data Analyst           | Analyze and interpret data to provide insights       | SQL, Excel, Data Visualization, Statistical Analysis | Tableau, Power BI, Excel, R                  |
+| Data Scientist         | Develop predictive           models and perform advanced analytics | Machine Learning, Statistical Modeling, Programming | Python, R, TensorFlow, Scikit-learn          |
+| Machine Learning Engineer | Design, implement, and deploy machine learning models | Machine Learning, Software Engineering, Model Deployment | TensorFlow, PyTorch, Docker, Kubernetes      | 
+
+
